@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimDes - User Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Rounded">
+    <link rel="stylesheet" href="Admin.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src='./image/logo1.png' alt=''/>
+                    <h2 class="text-muted"> Sim<span class='danger'>Des</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-outlined">
+                        close
+                        </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-outlined">account_circle</span>
+                    <h3>Akun</h3>
+                </a>
+                <a href="Form.html">
+                    <span class="material-icons-outlined">space_dashboard</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">view_list</span>
+                    <h3>Data Kependudukan</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">local_post_office</span>
+                    <h3>Surat</h3>
+                    <span class="message-count">30</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">leaderboard</span>
+                    <h3>Analitik</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-outlined">logout</span>
+                    <h3>Log out</h3>
+                </a>
+                
+            </div>
+        </aside>
+
+        <!---------------------- End Side ---------------------------->
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="Penduduk">
+                    <span class="material-icons-outlined">groups</span>
+                    <div class="middle">
+                        <div  class="lef">
+                            <h3>Total Penduduk</h3>
+                            <h1>25.456 Penduduk</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='36' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>100%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">WMD</small>
+                </div>
+                <!----------------- Peringkat Desa ----------------->
+                <div class="desa">
+                    <span class="material-icons-outlined">equalizer</span>
+                    <div class="middle">
+                        <div  class="lef">
+                            <h3>Desa</h3>
+                            <h1>267 Keluarga</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='36' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>70%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">WMD</small>
+                </div>
+                <!----------------- Peringkat Penduduk ----------------->
+                <div class="pekerjaan">
+                    <span class="material-icons-outlined">work</span>
+                    <div class="middle">
+                        <div  class="lef">
+                            <h3>Pekerjaan</h3>
+                            <h1>65 Pekerjaan</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='36' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">WMD</small>
+                </div>
+                <!----------------- Peringkat Pekerjaan ----------------->
+            </div>
+            <!-------------- INSIGHTS ------------------->
+            <div class="data-kependudukan">
+                <h2>Data Kependudukan</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Tgl. lahir</th>
+                            <th>Jenis Kelamin</th>
+                            <th>Status</th>
+                            <th>Pekerjaan</th>
+                            <th>Agama</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ted Mosby</td>
+                            <td>9 Juni 1965</td>
+                            <td>Pria</td>
+                            <td>Menikah</td>
+                            <td class="warning">Arsitek</td>
+                            <td>Kristen</td>
+                            <td class="primary">Detail</td>
+                        </tr>
+                        <tr>
+                            <td>Robin Scherbatsky</td>
+                            <td>10 Maret 1964</td>
+                            <td>Wanita</td>
+                            <td>Menikah</td>
+                            <td class="warning">Reporter</td>
+                            <td>Kristen</td>
+                            <td class="primary">Detail</td>
+                        </tr>
+                        <tr>
+                            <td>Marshall Eriksen</td>
+                            <td>3 Januari 1965</td>
+                            <td>Pria</td>
+                            <td>Menikah</td>
+                            <td class="warning">Jaksa</td>
+                            <td>Kristen</td>
+                            <td class="primary">Detail</td>
+                        </tr>
+                        <tr>
+                            <td>Dodit Mulyatno</td>
+                            <td>7 Juli 1972</td>
+                            <td>Pria</td>
+                            <td>Belum Menikah</td>
+                            <td class="warning">Komedian</td>
+                            <td>Islam</td>
+                            <td class="primary">Detail</td>
+                        </tr>
+                        <tr>
+                            <td>Ted Mosby</td>
+                            <td>9 Juni 1965</td>
+                            <td>Pria</td>
+                            <td>Menikah</td>
+                            <td class="warning">Arsitek</td>
+                            <td>Kristen</td>
+                            <td class="primary">Detail</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
